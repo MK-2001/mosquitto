@@ -1,6 +1,6 @@
 FROM debian:latest
 
-MAINTAINER Marcus Krause <36983163+MK-2001@users.noreply.github.com>
+LABEL maintainer="Marcus Krause <36983163+MK-2001@users.noreply.github.com>"
 
 ARG  MOSQVER
 ENV  MOSQVER 1.4.15
