@@ -2,7 +2,8 @@ FROM debian:latest
 
 LABEL maintainer="Marcus Krause <36983163+MK-2001@users.noreply.github.com>"
 
-ARG  MOSQVER=1.4.15
+ARG MOSQVER
+ENV MOSQVER ${MOSQVER:-1.4.15}
 
 ENV DEBIAN_FRONTEND noninteractive
 
